@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-gray-900;
+}
+.menu-btn {
+    @apply text-gray-500  flex items-center justify-center my-1 rounded-lg;
+}
+.menu-btn:hover {
+    transition:0.4s;
+    @apply bg-gray-700;
+    
+}
+.action-btn{
+    @apply mr-2 bg-gray-700 flex items-center justify-center rounded-full text-white w-10 h-10;
+}
+
+.profile-img {
+    @apply w-32 h-32 rounded-full object-cover -mb-4 border-2 border-white;
+}
+.edit-cover-photo{
+    background-color:white;
+    @apply rounded text-white absolute bottom-0 right-0 mr-4 mb-4 px-5 py-2;
+}
+.edit-profile-photo{
+    background-color:white;
+    @apply rounded text-white absolute bottom-0 right-0;
+}
+.edit-cover-photo:hover{
+    background-color :#00000070;
+}
